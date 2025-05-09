@@ -24,6 +24,9 @@ This project implements a multi-model deep learning ensemble to classify gallbla
 
 ## 🏗️ Model Architecture
 
+![image](https://github.com/user-attachments/assets/7657f99d-a7ec-4851-8368-ddb7bb358216)
+
+
 - **Base Models:**
   - VGG19
   - ResNet50
@@ -59,23 +62,29 @@ This project implements a multi-model deep learning ensemble to classify gallbla
 
 ---
 
-## 🖼️ Visualizations
+## 🖼️ Result & Visualizations:
+
+### 📉 Accuracy Curve:
+![image](https://github.com/user-attachments/assets/641f6cea-2969-4cf8-9c33-e383e4a4362d)
+
 
 ### 📌 Confusion Matrix
-- Displays predicted vs. actual classes for model performance overview.
+![image](https://github.com/user-attachments/assets/eda28759-a53b-44ad-9698-34c7ebc71bd5)
+
 
 ### 📈 ROC Curve
-- Plots true positive rate vs. false positive rate for each class.
+![image](https://github.com/user-attachments/assets/04561aa9-d10d-45ed-8329-4e119558ebb3)
 
-### 📊 Precision-Recall (PR) Curve
-- Highlights model performance in handling class imbalance.
 
-### 🎯 Calibration Curve
-- Assesses how well the model's predicted probabilities reflect true confidence.
+### 🔄 PR Curve
+![image](https://github.com/user-attachments/assets/86469a9b-c8b2-44d0-9c48-ea55a4ac814c)
+
 
 ### ❌ Misclassified Samples
-- Visual examples of incorrect predictions with true vs. predicted labels.
+![image](https://github.com/user-attachments/assets/f614dd8e-ef5a-47dc-a854-8d64ede20625)
 
+
+---
 ---
 ### 📜 License
 Licensed under the [Apache License 2.0](LICENSE)
